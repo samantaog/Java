@@ -1,0 +1,17 @@
+package com.generation.baseDados;
+import com.generation.model.Headseat;
+
+public class baseDadosHeadseat {
+		private Headseat[] listaHeadseats;
+
+		public baseDadosHeadseat () {
+			listaHeadseats= new Headseat[3];
+			
+			listaHeadseats[0]= new Headseat(null, null);
+			listaHeadseats[1]= new Headseat(null, null);
+			listaHeadseats[2]= new Headseat(null, null);
+			
+		}
+}
+
+

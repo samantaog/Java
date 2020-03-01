@@ -1,0 +1,12 @@
+1578915019463	Rename type 'model'
+1578916153661	Delete element
+1578916157636	Delete element
+1578916160903	Delete element
+1578916164460	Delete element
+1578916356734	Rename type 'Vendas'
+1578917620449	Encapsulate field 'listaMonitor'
+1578918494013	Encapsulate field 'listaTeclado'
+1578919675408	Encapsulate field 'listaClientes'
+1578920549952	Encapsulate field 'preco'
+1578920711766	Encapsulate field 'placaVideo'
+1578921307707	Encapsulate field 'modelo'

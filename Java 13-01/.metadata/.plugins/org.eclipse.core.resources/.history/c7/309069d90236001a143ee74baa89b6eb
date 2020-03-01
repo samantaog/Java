@@ -1,0 +1,39 @@
+package com.generation.modelCliente;
+
+public class Cliente {
+	private String Nome;
+	private String cpf;
+	private String endereco;
+
+	public Cliente(String nome, String cpf, String endereco) {
+		super();
+		Nome = nome;
+		this.cpf = cpf;
+		this.endereco = endereco;
+	}
+
+	public String getNome() {
+		return Nome;
+	}
+
+	public void setNome(String nome) {
+		Nome = nome;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+
+}

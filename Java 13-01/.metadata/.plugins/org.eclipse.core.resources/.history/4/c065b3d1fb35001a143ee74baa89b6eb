@@ -1,0 +1,9 @@
+package com.generation.model;
+
+
+public class Teclado {
+		private boolean tipoPadrao;
+		private boolean tipoNumerico;
+		private boolean tipoGamer;
+
+}

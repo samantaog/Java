@@ -1,0 +1,25 @@
+package com.generation.baseDados;
+
+import com.generation.model.Headseat;
+import com.generation.model.Monitor;
+
+public class baseDadosMonitor {
+	private Monitor [] listaMonitor;
+	
+	public baseDadosMonitor() {
+		listaMonitor = new Monitor[3];
+
+		listaMonitor[0] = new Monitor();
+		listaMonitor[1] = new Monitor();
+		listaMonitor[2] = new Monitor();
+
+	public Monitor [] getListaMonitor() {
+		return listaMonitor;
+	}
+
+	public void setListaMonitor(Monitor [] listaMonitor) {
+		this.listaMonitor = listaMonitor;
+	}
+	
+
+}

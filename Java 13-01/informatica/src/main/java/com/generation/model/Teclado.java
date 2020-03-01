@@ -1,0 +1,39 @@
+package com.generation.model;
+
+public class Teclado {
+	private boolean tipoPadrao;
+	private boolean tipoNumerico;
+	private boolean tipoGamer;
+
+	public Teclado(boolean tipoPadrao, boolean tipoNumerico, boolean tipoGamer) {
+		super();
+		this.tipoPadrao = tipoPadrao;
+		this.tipoNumerico = tipoNumerico;
+		this.tipoGamer = tipoGamer;
+	}
+
+	public boolean isTipoPadrao() {
+		return tipoPadrao;
+	}
+
+	public void setTipoPadrao(boolean tipoPadrao) {
+		this.tipoPadrao = tipoPadrao;
+	}
+
+	public boolean isTipoNumerico() {
+		return tipoNumerico;
+	}
+
+	public void setTipoNumerico(boolean tipoNumerico) {
+		this.tipoNumerico = tipoNumerico;
+	}
+
+	public boolean isTipoGamer() {
+		return tipoGamer;
+	}
+
+	public void setTipoGamer(boolean tipoGamer) {
+		this.tipoGamer = tipoGamer;
+	}
+
+}

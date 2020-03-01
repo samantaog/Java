@@ -1,0 +1,8 @@
+package com.generation.model;
+
+private class Mouse {
+	private String comFio;
+	private String bluetooth;
+	private String tipoGamer;
+
+}

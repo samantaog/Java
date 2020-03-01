@@ -1,0 +1,21 @@
+package com.generation.model;
+
+public class Pc {
+	public String marca;
+	private boolean placaVideo;
+
+	public Pc(String marca, boolean placaVideo) {
+		super();
+		this.marca = marca;
+		this.placaVideo = placaVideo;
+	}
+
+	public boolean isPlacaVideo() {
+		return placaVideo;
+	}
+
+	public void setPlacaVideo(boolean placaVideo) {
+		this.placaVideo = placaVideo;
+	}
+
+}
