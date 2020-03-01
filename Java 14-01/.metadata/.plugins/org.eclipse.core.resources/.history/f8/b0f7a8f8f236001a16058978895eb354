@@ -1,0 +1,5 @@
+package com.generation.BaseDados;
+
+public class Estoque {
+
+}

@@ -1,0 +1,12 @@
+package com.generation.BaseDados;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Estoque {
+	String [] lista =new String [3];
+	List<String> lista2 = new ArrayList<String>();
+	lista2.add("boi");
+	
+
+}

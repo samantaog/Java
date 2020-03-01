@@ -1,0 +1,17 @@
+package com.generation.InterfaceVenda;
+
+import com.generation.Model.Carne;
+
+public class VendaImpl implements IVenda{
+
+	public String pesar(Carne carne) {
+		String mensagem="Tipo de carne: " + Carne.add();
+		return null;
+	}
+
+	public String vender(Carne carne) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

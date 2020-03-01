@@ -1,0 +1,44 @@
+package com.generation.Model;
+
+public class Carne {
+	private String boi;
+	private String frango;
+	private String porco;
+
+	public Carne(String boi, String frango, String porco) {
+		super();
+		this.boi = boi;
+		this.frango = frango;
+		this.porco = porco;
+	}
+
+	public String getBoi() {
+		return boi;
+	}
+
+	public void setBoi(String boi) {
+		this.boi = boi;
+	}
+
+	public String getFrango() {
+		return frango;
+	}
+
+	public void setFrango(String frango) {
+		this.frango = frango;
+	}
+
+	public String getPorco() {
+		return porco;
+	}
+
+	public void setPorco(String porco) {
+		this.porco = porco;
+	}
+
+	@Override
+	public String toString() {
+		return "Carne [boi=" + boi + ", frango=" + frango + ", porco=" + porco + "]";
+	}
+
+}
