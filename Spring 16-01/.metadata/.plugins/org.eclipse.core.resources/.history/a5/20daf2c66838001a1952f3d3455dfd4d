@@ -1,0 +1,26 @@
+package com.generation.Eletronicos.Controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.generation.Eletronicos.Model.Computador;
+
+@CrossOrigin("*")
+@RestController
+
+public class EletronicosController {
+	List<Computador> listComputador = new ArrayList<Computador>();
+
+	@GetMapping("/computador")
+	List<Computador> getAllComputador() {
+		listComputador.add(new Computador("i5", "6Gb", 20));
+		listComputador.add(new Computador("i3", "4Gb", (float) 21.5));
+		listComputador.add(new Computador("i7", "8Gb", 29));
+		return listComputador;
+	}
+
+}
