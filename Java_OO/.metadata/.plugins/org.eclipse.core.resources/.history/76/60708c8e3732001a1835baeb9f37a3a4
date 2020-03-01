@@ -1,0 +1,13 @@
+package com.generation.Exercicio1;
+
+public class Socios {
+	class socio {
+		String nome;
+		String endereco;
+		float cpf;
+		
+		
+		
+	}
+
+}

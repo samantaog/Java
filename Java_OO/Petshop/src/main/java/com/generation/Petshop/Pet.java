@@ -1,0 +1,61 @@
+package com.generation.Petshop;
+
+class Pet {
+
+		public class produtosPetshop {
+    		private String comidaEspecie;
+    		private String brinquedoEspecie;
+    		private String produtoSaude;
+    		private String produtoHigiene;
+    		
+			
+    		
+			public String getComidaEspecie() {
+				return comidaEspecie;
+			}
+
+
+			public void setComidaEspecie(String comidaEspecie) {
+				this.comidaEspecie = comidaEspecie;
+			}
+			
+			public String getBrinquedoEspecie() {
+				return brinquedoEspecie;
+			}
+			
+			public void setBrinquedoEspecie(String brinquedoEspecie) {
+				this.brinquedoEspecie = brinquedoEspecie;
+			}
+			
+			public String getProdutoSaude() {
+				return produtoSaude;
+			}
+			
+			public void setCondicaoSaude(String produtoSaude) {
+				this.setProdutoSaude(produtoSaude);
+			}
+			
+			public String getProdutoHigiene() {
+				return produtoHigiene;
+			}
+			
+			public void setProdutoHigiene(String produtoHigiene) {
+				this.produtoHigiene = produtoHigiene;
+			}
+
+
+			public void setProdutoSaude(String produtoSaude) {
+				this.produtoSaude = produtoSaude;
+			}
+    		
+    	
+			public void cadastrar (String produtoSaude) {
+				this.setProdutoSaude(produtoSaude);
+				System.out.println("Pedido Realizado: " + this.getProdutoSaude ());
+			}
+			
+    		 
+		
+	}
+
+}

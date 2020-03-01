@@ -1,0 +1,5 @@
+package com.generation.Petshop;
+
+class Pedido extends Pet {
+
+}

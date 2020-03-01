@@ -1,0 +1,20 @@
+package com.generation.Petshop;
+
+/**
+ * Hello world!
+ *
+ */
+public class Inicio 
+{
+    public static void main( String[] args )
+    {
+    	Petshop pedido = new Petshop ();
+    	pedido.comidaEspecie = "Ração para cachorro";
+    	pedido.brinquedoEspecie = "bolinha";
+     	pedido.produtoSaude = "Anti pulgas";
+     	pedido.produtoHigiene = "Shampoo";
+    		 
+     	
+     	
+    }
+}

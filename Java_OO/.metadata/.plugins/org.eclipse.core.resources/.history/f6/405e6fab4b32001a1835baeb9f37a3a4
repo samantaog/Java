@@ -1,0 +1,28 @@
+package com.generation.Petshop;
+
+import java.util.Scanner;
+
+import com.generation.Petshop.Pet.Petshop;
+
+/**
+ * Hello world!
+ *
+ */
+public class Inicio 
+{
+    public static void main( String[] args )
+    {
+    	    	
+    	Petshop pedido = new Petshop ();
+    	pedido.cadastrar("Anti pulgas");
+    	
+    	/**pedido.setComidaEspecie("Ração para cachorro");
+    	pedido.setBrinquedoEspecie("bolinha");
+     	pedido.setProdutoSaude("Anti pulgas");
+     	pedido.setProdutoHigiene("Shampoo");
+     	**/
+    		 
+     	
+     	
+    }
+}

@@ -1,0 +1,26 @@
+package com.generation.Exercicio1;
+
+import com.generation.Exercicio1.Socios.Socio;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        
+     Socios socio1 = new Socios ();
+     	socio1.nome = "Thiago";
+     	socio1.endereco = "rua bla bla bla";
+     	socio1.cpf = 1212.121122;
+     	socio1.rg = 222.333;
+     	socio1.telefone = 892892828;
+     	socio1.comprarAcoes ();
+     	
+     
+     
+     
+    }
+}

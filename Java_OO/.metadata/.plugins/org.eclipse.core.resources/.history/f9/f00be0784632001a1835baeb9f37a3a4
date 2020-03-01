@@ -1,0 +1,54 @@
+package com.generation.Petshop;
+
+class Pet {
+
+	public static void main(String[] args) {
+		class Petshop {
+    		private String comidaEspecie;
+    		private String brinquedoEspecie;
+    		private String condicaoSaude;
+    		private String produtoHigiene;
+			
+    		
+			public String getComidaEspecie() {
+				return comidaEspecie;
+			}
+
+
+			public void setComidaEspecie(String comidaEspecie) {
+				this.comidaEspecie = comidaEspecie;
+			}
+			
+			public String getBrinquedoEspecie() {
+				return brinquedoEspecie;
+			}
+			
+			public void setBrinquedoEspecie(String brinquedoEspecie) {
+				this.brinquedoEspecie = brinquedoEspecie;
+			}
+			
+			public String getCondicaoSaude() {
+				return condicaoSaude;
+			}
+			
+			public void setCondicaoSaude(String condicaoSaude) {
+				this.condicaoSaude = condicaoSaude;
+			}
+			
+			public String getProdutoHigiene() {
+				return produtoHigiene;
+			}
+			
+			public void setProdutoHigiene(String produtoHigiene) {
+				this.produtoHigiene = produtoHigiene;
+			}
+    		
+    	
+			
+			
+    		 
+		
+	}
+
+}
+}

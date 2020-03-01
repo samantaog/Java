@@ -1,0 +1,29 @@
+package com.generation.Exercicio1;
+
+public class Socios {
+	class Socio {
+		public String nome;
+		private String endereco;
+		private double cpf;
+		private double rg;
+		private double telefone;
+		private double dataNascimento;
+		
+		
+		public Socio (String nome, String endereco, double cpf, double rg, double telefone, double dataNascimento) {
+			this.nome = nome;
+			this.endereco = endereco;
+			this.cpf = cpf;
+			this.rg = rg;
+			this.telefone = telefone;
+			this.dataNascimento = dataNascimento;
+			
+		}
+		
+		
+	
+		
+		
+	}
+
+}
