@@ -1,0 +1,43 @@
+package com.generation.perfumaria.service.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.generation.perfumaria.model.Sabonete;
+import com.generation.perfumaria.service.IservicoSabonete;
+
+public class ServicoSaboneteImpl implements IservicoSabonete {
+	static List<Sabonete> listaSabonetes = new ArrayList<Sabonete>();
+	private static int incr = 0;
+
+	@Override
+	public Sabonete insert(Sabonete sabonete) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Sabonete update(Sabonete sabonete) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Sabonete> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Sabonete getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

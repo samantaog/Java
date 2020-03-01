@@ -1,0 +1,47 @@
+package com.generation.lojaInformatica.service.impl;
+
+import java.util.List;
+
+import com.generation.lojaInformatica.model.Loja;
+import com.generation.lojaInformatica.service.LojaService;
+
+public class LojaServiceImpl implements LojaService{
+
+	@Override
+	public Loja insert(Loja lojaInformatica) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Loja update(Loja lojaInformatica) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(Loja lojaInformatica) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Loja getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Loja> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

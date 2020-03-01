@@ -1,0 +1,62 @@
+package com.generation.perfumaria.service.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.generation.perfumaria.model.Sabonete;
+import com.generation.perfumaria.service.IservicoSabonete;
+
+public class ServicoSaboneteImpl implements IservicoSabonete {
+	static List<Sabonete> listaSabonetes = new ArrayList<Sabonete>();
+	private static int incr = 0;
+
+	@Override
+	public Sabonete insert(Sabonete sabonete) {
+		incr++;
+		sabonete.setId(incr);
+		listaSabonetes.add(sabonete);
+		return sabonete;
+	}
+
+	@Override
+	public Sabonete update(Sabonete sabonete) {
+		Sabonete aux = getById(sabonete.getId());
+		if (aux != null) {
+			aux.setMarca(sabonete.getMarca());
+			aux.setPerfume(sabonete.getPerfume());
+		}
+		return aux;
+	}
+
+	@Override
+	public void delete(int id) {
+		int posicao = -1;
+		for (int i = 0; i < ServicoSaboneteImpl.listaSabonetes.size(); i++) {
+			if (ServicoSaboneteImpl.listaSabonetes.get(i).getId() == id) {
+				posicao = i;
+				break;
+			}
+		}
+		if (posicao >= 0) {
+			ServicoSaboneteImpl.listaSabonetes.remove(posicao);
+		}
+	}
+
+	@Override
+	public List<Sabonete> getAll() {
+
+		return listaSabonetes;
+	}
+
+	@Override
+	public Sabonete getById(int id) {
+		for (Sabonete sabonete : listaSabonetes) {
+			if (sabonete.getId() == id) {
+				return sabonete;
+			}
+		}
+
+		return null;
+	}
+
+}

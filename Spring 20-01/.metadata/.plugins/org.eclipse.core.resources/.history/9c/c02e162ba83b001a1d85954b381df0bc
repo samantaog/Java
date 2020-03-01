@@ -1,0 +1,5 @@
+package com.generation.perfumaria.service;
+
+public interface IservicoSabonete {
+
+}

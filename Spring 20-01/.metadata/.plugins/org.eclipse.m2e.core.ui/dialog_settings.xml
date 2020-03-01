@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Generation\Desktop\20-01\lojaInformaticaCorrecao"/>
+			<item value="C:\Users\Generation\Desktop\20-01\perfumaria"/>
+			<item value="C:\Users\Generation\Desktop\20-01\lojaInformatica"/>
+			<item value="C:\Users\Generation\Desktop\escola"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]-[version]"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

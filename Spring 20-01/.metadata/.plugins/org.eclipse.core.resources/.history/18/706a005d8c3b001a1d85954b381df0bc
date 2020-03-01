@@ -1,0 +1,5 @@
+package com.generation.lojaInformatica.model;
+
+public class Loja {
+
+}

@@ -1,0 +1,5 @@
+package com.generation.lojaInformatica.service;
+
+public interface LojaService {
+
+}

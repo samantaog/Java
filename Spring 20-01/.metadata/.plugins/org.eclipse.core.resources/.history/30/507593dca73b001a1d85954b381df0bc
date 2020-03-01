@@ -1,0 +1,8 @@
+package com.generation.perfumaria.service;
+
+import com.generation.perfumaria.model.Sabonete;
+
+public class IservicoSabonete {
+	
+
+}
