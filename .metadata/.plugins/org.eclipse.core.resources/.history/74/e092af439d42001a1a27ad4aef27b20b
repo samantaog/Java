@@ -1,0 +1,5 @@
+package com.generation.redeSocial.service;
+
+public interface EstadoService {
+
+}

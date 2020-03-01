@@ -1,0 +1,5 @@
+package com.generation.escola.repository;
+
+public interface TurnoRepository {
+
+}

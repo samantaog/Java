@@ -1,0 +1,5 @@
+package com.generation.escola.service;
+
+public interface TurmaService {
+
+}

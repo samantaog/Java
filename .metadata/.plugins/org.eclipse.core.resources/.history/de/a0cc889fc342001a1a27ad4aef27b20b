@@ -1,0 +1,5 @@
+package com.generation.escola.controller;
+
+public class AlunoController {
+
+}
